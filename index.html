@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <title>我的第一张网页</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>我的第一张动态网页</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 <body>
-  <h1>Hello World!</h1>
-  <p>这是我在 Page One Workshop 中写下的第一句话。</p>
 
-  <div class="card">
-    <img src="images/pageone.jpg" alt="示例图片">
-    <p>这里可以放你的介绍或灵感卡片！</p>
+  <h1>Supabase 数据接入演示</h1>
+  <div id="cards-container">
+    <p>这里会显示你从 Supabase 表里拉下来的数据哦！</p>
   </div>
 
   <footer>
     <p>© 2025 by Your Name</p>
   </footer>
+
+  <script src="scripts.js"></script>
 </body>
 </html>
