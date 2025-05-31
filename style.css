@@ -1,21 +1,27 @@
-body.custom-theme {
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.custom-theme {
+  min-height: 100%;
   font-family: sans-serif;
   background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   color: #333;
-  margin: 0;
   padding: 2rem;
   transition: background 0.5s;
 }
 
 h1 {
   color: #fff;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 .card {
   border-radius: 12px;
   background: #fff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   margin: 1rem 0;
   transition: transform 0.3s;
