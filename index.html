@@ -7,15 +7,29 @@
 </head>
 <body class="custom-theme">
   <h1>Hello, Style World!</h1>
-  <p>让我们开始为网页穿上新衣吧。</p>
+  <p class="vertical-text">让我们开始为网页穿上新衣吧。</p>
 
   <div class="card">
     <img src="images/pageone.jpg" alt="示例图片" />
+    <div class="action-buttons">
+      <button class="like-btn" id="likeBtn" onclick="toggleLike()">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+        </svg>
+      </button>
+      <button class="comment-btn" id="commentBtn" onclick="toggleComment()">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+        </svg>
+      </button>
+    </div>
     <p>换一张你喜欢的背景图，写一句你喜欢的话。</p>
   </div>
 
   <footer>
     <p>© 2025 by Your Name</p>
+    <p><a href="https://cards.bysunling.com/" target="_blank">创造你的启发时刻卡片</a></p>
   </footer>
+  <script src="scripts.js"></script>
 </body>
 </html>
